@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CFAScan_Example' do
+  pod 'CFAScan', :path => '../'
+
+  target 'CFAScan_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
