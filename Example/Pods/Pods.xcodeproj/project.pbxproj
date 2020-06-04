@@ -10,9 +10,6 @@
 		03CE449400C0E96BFA93D152D76E648D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4CA691DA1755C313BAC5BECE76130638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5D1DDC501E888C6DABC669E4EFA2A0EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7333715DBCEE291C05998FB87BCF9CF7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C0EB5ED7EF46D08FA95AE5E59D81B /* ReplaceMe.m */; };
-		8744FAA4248914480026B05A /* ObjectClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8744FAA2248914480026B05A /* ObjectClass.h */; };
-		8744FAA5248914480026B05A /* ObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744FAA3248914480026B05A /* ObjectClass.m */; };
 		952A31146B9B51BE899E4D1B0433F5CE /* Pods-CFAScan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F3B3A8FF8D5F58014801FCC9E1BC49 /* Pods-CFAScan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A956D84D412927CDD7B1BF25E50C585D /* Pods-CFAScan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4130AE0F49A35AEB15016D28865E975B /* Pods-CFAScan_Example-dummy.m */; };
 		B213166641A04CE6840E98E09B0FBB8A /* CFAScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9772832EE068D02B53F5C48C6CB13FD /* CFAScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		09DC1FF282960EBC5109A6A28C959958 /* CFAScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CFAScan-Info.plist"; sourceTree = "<group>"; };
-		0C0C0EB5ED7EF46D08FA95AE5E59D81B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CFAScan/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1BA5CCD985B3FF5AB87EDAD0092E2062 /* Pods-CFAScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		23FCFEFAC27B7E73CE1C214518B6554D /* Pods-CFAScan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAScan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2807DF2AB31ACB44F3C8C469483F35C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -57,8 +53,6 @@
 		7EFFBF10FA0535348E8E22FB762F8A4C /* Pods-CFAScan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFAScan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		80870B423949D9D66D69192812C4211E /* Pods_CFAScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFAScan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D727F170BA6B3A3B88749C846341B7 /* Pods-CFAScan_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFAScan_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8744FAA2248914480026B05A /* ObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectClass.h; sourceTree = "<group>"; };
-		8744FAA3248914480026B05A /* ObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectClass.m; sourceTree = "<group>"; };
 		8B065BE540D136C444DE78D752DB7E82 /* CFAScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFAScan-dummy.m"; sourceTree = "<group>"; };
 		8B43AD62536922B4E9B589DC286FDA89 /* CFAScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFAScan-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -125,9 +119,7 @@
 		7FE83E00190B021856A406D004C2C288 /* CFAScan */ = {
 			isa = PBXGroup;
 			children = (
-				8744FAA2248914480026B05A /* ObjectClass.h */,
-				8744FAA3248914480026B05A /* ObjectClass.m */,
-				0C0C0EB5ED7EF46D08FA95AE5E59D81B /* ReplaceMe.m */,
+				8744FAA6248915400026B05A /* Source */,
 				2F0A466F75E2404F50C19839F24309C9 /* Pod */,
 				869DA3F4D275F0F89E273BCF17F1004C /* Support Files */,
 			);
@@ -148,6 +140,13 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CFAScan";
+			sourceTree = "<group>";
+		};
+		8744FAA6248915400026B05A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		9609B205F370A37BA9C67968EEC6AB83 /* Pods-CFAScan_Tests */ = {
@@ -244,7 +243,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8744FAA4248914480026B05A /* ObjectClass.h in Headers */,
 				B213166641A04CE6840E98E09B0FBB8A /* CFAScan-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,8 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8221E89080B88842A58343E6753CA0A /* CFAScan-dummy.m in Sources */,
-				8744FAA5248914480026B05A /* ObjectClass.m in Sources */,
-				7333715DBCEE291C05998FB87BCF9CF7 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
