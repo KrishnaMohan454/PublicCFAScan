@@ -1,8 +1,9 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '12.0'
 
 target 'CFAScan_Example' do
+  pod  'PPBlinkID', '~> 5.4.0'
   pod 'CFAScan', :path => '../'
 
   target 'CFAScan_Tests' do

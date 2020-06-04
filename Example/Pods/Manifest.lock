@@ -1,16 +1,24 @@
 PODS:
-  - CFAScan (0.1.0)
+  - CFAScan (0.1.0):
+    - PPBlinkID (~> 5.4.0)
+  - PPBlinkID (5.4.1)
 
 DEPENDENCIES:
   - CFAScan (from `../`)
+  - PPBlinkID (~> 5.4.0)
+
+SPEC REPOS:
+  trunk:
+    - PPBlinkID
 
 EXTERNAL SOURCES:
   CFAScan:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CFAScan: 12761b42c642929c91036d6d6b58807a60627014
+  CFAScan: 877db2827dc70b9de3e01fccad22548e357606cc
+  PPBlinkID: e47c2ed4691f87ebc9f5386cacc2b83ae09dc3b0
 
-PODFILE CHECKSUM: cc07b452ef0e52fee481c7a0aafc323c82973e58
+PODFILE CHECKSUM: 945eb8705dd253d8024e134e160e84cac528e3f0
 
 COCOAPODS: 1.9.1
