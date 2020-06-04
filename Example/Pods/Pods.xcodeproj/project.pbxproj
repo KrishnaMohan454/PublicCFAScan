@@ -119,7 +119,6 @@
 		7FE83E00190B021856A406D004C2C288 /* CFAScan */ = {
 			isa = PBXGroup;
 			children = (
-				8744FAA6248915400026B05A /* Source */,
 				2F0A466F75E2404F50C19839F24309C9 /* Pod */,
 				869DA3F4D275F0F89E273BCF17F1004C /* Support Files */,
 			);
@@ -140,13 +139,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CFAScan";
-			sourceTree = "<group>";
-		};
-		8744FAA6248915400026B05A /* Source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		9609B205F370A37BA9C67968EEC6AB83 /* Pods-CFAScan_Tests */ = {
