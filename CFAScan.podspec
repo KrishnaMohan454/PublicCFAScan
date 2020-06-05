@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CFAScan'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Sample testing on cocoapods'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ publish cocoapods & utilize into app through dependecies
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KrishnaMohan454' => 'krishnamohan@authenticid.co' }
-  s.source           = { :git => 'https://github.com/KrishnaMohan454/PublicCFAScan.git', :tag => "0.1.0" }
+  s.source           = { :git => 'https://github.com/KrishnaMohan454/PublicCFAScan.git', :tag => "0.1.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
