@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = PPBlinkID;
+			productName = PPBlinkID;
 		};
 		EF2DA376321C00A8E2B8841F83D3983A /* CFAScan */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 				CA94F5BB0A5143152A9F4C74A4C9780B /* PBXTargetDependency */,
 			);
 			name = CFAScan;
+			productName = CFAScan;
 		};
 /* End PBXAggregateTarget section */
 
@@ -78,25 +80,26 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38D501A0428328B281FF68A0F4C0F68B /* PPBlinkID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPBlinkID.release.xcconfig; sourceTree = "<group>"; };
 		3A83BA94D51F32496C55D2508D3450D7 /* Pods-CFAScan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CFAScan_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3FFC0A5351283AB13BB26A0B0EE49A5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3FFC0A5351283AB13BB26A0B0EE49A5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4ACEDE6FE87A8DCEF8B0ED41F3F0437A /* Pods-CFAScan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFAScan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BA3BB0001BC8E88E20B21C3949B92FE /* Pods-CFAScan_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFAScan_Example-dummy.m"; sourceTree = "<group>"; };
 		4D8993BBFEF2126131ABA1F289D2D463 /* Pods-CFAScan_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CFAScan_Example.modulemap"; sourceTree = "<group>"; };
 		5576776B6A1A4D201F09424D193B6E9B /* CFAScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFAScan.debug.xcconfig; sourceTree = "<group>"; };
-		7913C1755AC83E2A45D036EEAB121E32 /* CFAScan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CFAScan.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7913C1755AC83E2A45D036EEAB121E32 /* CFAScan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CFAScan.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C9D9DF0DADB28659669DF9025A51905 /* PPBlinkID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPBlinkID.debug.xcconfig; sourceTree = "<group>"; };
-		80870B423949D9D66D69192812C4211E /* Pods_CFAScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFAScan_Tests.framework; path = "Pods-CFAScan_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80870B423949D9D66D69192812C4211E /* Pods_CFAScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFAScan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		877D42BD248A7B0B00A8B5FC /* DummyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DummyFramework.framework; sourceTree = "<group>"; };
 		8D12B44C2D4B3E02E0CF1E72DD4DFFA1 /* Pods-CFAScan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAScan_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8EFA11E93BE1324094614E58D793753D /* CFAScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFAScan.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A003F817B67160367AD890DBB51BE7AB /* Pods-CFAScan_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CFAScan_Example-umbrella.h"; sourceTree = "<group>"; };
 		A67F6E5283AE277526C2CB9CA2FC6984 /* Pods-CFAScan_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFAScan_Tests-dummy.m"; sourceTree = "<group>"; };
-		AEFF10B8FE432A064DA6CA91F9065CCF /* Pods_CFAScan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFAScan_Example.framework; path = "Pods-CFAScan_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFF10B8FE432A064DA6CA91F9065CCF /* Pods_CFAScan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFAScan_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D5DF63670ECDEF85EB0B71EAEA23C9 /* Pods-CFAScan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAScan_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BBA687CDC0E836D84E5D5F176C2C9CE2 /* Pods-CFAScan_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CFAScan_Tests.modulemap"; sourceTree = "<group>"; };
 		BC0CD81D7B152F8BC4AC7BFC163F6F43 /* Pods-CFAScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFAScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C0827AAFCC185554E01196E8531AAD49 /* Pods-CFAScan_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFAScan_Example-Info.plist"; sourceTree = "<group>"; };
-		C5D1BF61D9D07C77E499CCA903980E37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C5D1BF61D9D07C77E499CCA903980E37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CCC1427D145B5F7AE69713ADEE3CAC19 /* Pods-CFAScan_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFAScan_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6F93A7CD9A963DE590565CE20B84796 /* Microblink.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Microblink.bundle; sourceTree = "<group>"; };
 		F0325FB232D19FF544D35D7DED11F977 /* Microblink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Microblink.framework; sourceTree = "<group>"; };
@@ -170,7 +173,6 @@
 				A37202C62D8A51926BCD5838209FA517 /* Resources */,
 				CCCD377AF3655B13781DF7C3A3FAD142 /* Support Files */,
 			);
-			name = PPBlinkID;
 			path = PPBlinkID;
 			sourceTree = "<group>";
 		};
@@ -278,6 +280,7 @@
 		F5B36F61B32F3536E904CC912D9DE3F6 /* CFAScan */ = {
 			isa = PBXGroup;
 			children = (
+				877D42BD248A7B0B00A8B5FC /* DummyFramework.framework */,
 				B0B9C113F1ABB695E80BEEEDCDCB4955 /* Pod */,
 				DF9C5F28918B83D840FEE10FA5365232 /* Support Files */,
 			);
@@ -759,8 +762,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
